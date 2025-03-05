@@ -35,7 +35,7 @@ class HomePage extends StatelessWidget {
                         Text("123"),
                       ],
                     ),
-                    Icon(Icons.fitness_center, size: 90),
+                    Icon(Icons.fitness_center, size: 40),
                   ],
                 ),
               ),
