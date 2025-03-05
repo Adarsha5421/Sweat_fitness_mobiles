@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Sweat"),
-        backgroundColor: const Color.fromARGB(290, 290, 56, 75),
+        backgroundColor: const Color.fromARGB(290, 290, 56, 15),
       ),
       body: const Padding(
         padding: EdgeInsets.all(16.0),
