@@ -24,7 +24,8 @@ class FitnessCalculatorScreen extends StatelessWidget {
           title: const Text('Fitness Calculator',
               style: TextStyle(fontWeight: FontWeight.bold)),
           centerTitle: true,
-          backgroundColor: const Color.fromARGB(290, 290, 90, 58),
+          // backgroundColor: const Color.fromARGB(290, 290, 90, 58),
+          backgroundColor: const Color.fromARGB(33, 68, 149, 103),
           bottom: const TabBar(
             labelColor: Colors.white,
             indicatorColor: Color.fromARGB(255, 251, 81, 81),
