@@ -21,10 +21,10 @@ class FitnessCalculatorScreen extends StatelessWidget {
       length: 3, // Number of tabs
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Fitness Calculators',
+          title: const Text('Fitness Calculator',
               style: TextStyle(fontWeight: FontWeight.bold)),
           centerTitle: true,
-          backgroundColor: Colors.red[700],
+          backgroundColor: Colors.red[800],
           bottom: const TabBar(
             labelColor: Colors.white,
             indicatorColor: Colors.redAccent,
