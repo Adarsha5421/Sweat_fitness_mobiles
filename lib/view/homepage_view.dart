@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text("Welcome Back!",
-                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                style: TextStyle(fontSize: 80, fontWeight: FontWeight.bold)),
             SizedBox(height: 10),
             Text("Today's Workout: Chest and Triceps"),
             SizedBox(height: 20),
