@@ -42,7 +42,7 @@ class _MyDashboardScreenState extends State<MyDashboardScreen> {
         bottomNavigationBar: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
           selectedItemColor: Colors.white,
-          backgroundColor: const Color.fromARGB(255, 255, 55, 20),
+          backgroundColor: const Color.fromARGB(255, 255, 55, 0),
           items: const [
             BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
             BottomNavigationBarItem(
