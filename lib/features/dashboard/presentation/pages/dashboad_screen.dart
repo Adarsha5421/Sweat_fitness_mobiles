@@ -33,11 +33,6 @@ class _MyDashboardScreenState extends State<MyDashboardScreen> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        // appBar: AppBar(
-        //   title: const Text('Dashboard'),
-        //   backgroundColor: const Color.fromARGB(255, 255, 55, 0),
-        //   centerTitle: true,
-        // ),
         body: lstBOttomScreen[_selectedIndex],
         bottomNavigationBar: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
