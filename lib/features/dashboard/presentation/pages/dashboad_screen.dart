@@ -6,7 +6,8 @@ import 'package:gym_tracker_app/features/workout/presentation/pages/work_out_scr
 
 class MyDashboardScreen extends StatefulWidget {
   final int initialIndex; // Add this
-  const MyDashboardScreen({super.key, this.initialIndex = 0}); // Default is HomeScreen
+  const MyDashboardScreen(
+      {super.key, this.initialIndex = 0}); // Default is HomeScreen
 
   @override
   State<MyDashboardScreen> createState() => _MyDashboardScreenState();
@@ -41,11 +42,13 @@ class _MyDashboardScreenState extends State<MyDashboardScreen> {
         bottomNavigationBar: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
           selectedItemColor: Colors.white,
-          backgroundColor: const Color.fromARGB(255, 255, 55, 0),
+          backgroundColor: const Color.fromARGB(25, 25, 55, 0),
           items: const [
             BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-            BottomNavigationBarItem(icon: Icon(Icons.run_circle_sharp), label: 'Workout'),
-            BottomNavigationBarItem(icon: Icon(Icons.calculate_sharp), label: 'Calculator'),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.run_circle_sharp), label: 'Workout'),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.calculate_sharp), label: 'Calculator'),
             BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
           ],
           currentIndex: _selectedIndex,
